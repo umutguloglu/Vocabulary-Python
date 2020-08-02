@@ -1,5 +1,6 @@
 import json
 from random import randint
+import sys
 
 # This part can be changed according to your preferences.
 # Use "\33[0m" for no color option.
@@ -16,6 +17,28 @@ def _length(_dict):
         print("There is a mistake in calculating length.")
         return -1
 
+def _screening(_dict,wanted_word):
+    print(_Green,"Word : ", end="")
+    print(wanted_word)
+    print(_Yellow,"Def. : ", end="")
+    print(_dict["Words"][wanted_word]["Definition"])
+    print(_Cyan,"Example : ", end="")
+    print(_dict["Words"][wanted_word]["Examples"])
+    _preRepeat=_dict["Words"][wanted_word]["Number of Repeats"]
+    _dict["Words"][wanted_word]["Number of Repeats"]=_preRepeat+1
+    print(_NoColor,"Reading has been done succesfully.")
+    with open("sample.json", "w") as f:
+        json.dump(_dict,f,indent=4)
+
+def _specificword(wanted_word):
+    with open("sample.json", "r") as f:
+        dictionary= json.load(f)
+        for eachword in dictionary["Words"]:
+            if eachword==wanted_word :
+                _screening(dictionary,wanted_word)
+                return 0
+        print("We could not find your word! Try again.")
+
 def _random():
     with open("sample.json", "r") as f:
         dictionary= json.load(f)
@@ -29,16 +52,8 @@ def _random():
         else :
             number=randint(1,__length) - 1 # Array starts with 0.
             word=list(dictionary["Words"])[number]
-            print(_Green,"Word : ", end="")
-            print(word)
-            print(_Yellow,"Def. : ", end="")
-            print(dictionary["Words"][word]["Definition"])
-            print(_Cyan,"Example : ", end="")
-            print(dictionary["Words"][word]["Examples"])
-            _preRepeat=dictionary["Words"][word]["Number of Repeats"]
-            dictionary["Words"][word]["Number of Repeats"]=_preRepeat+1
-            with open("sample.json", "w") as f:
-                json.dump(dictionary,f,indent=4)
+            _screening(dictionary,word)
+
 
 _type=input("\t\tWelcome! What do you want?\n" +
 "1-) To add word, press 'a' and Enter. \n" +
@@ -51,29 +66,25 @@ if _type=="a" :
     pass
 elif _type=="r" :
     _random()
-    print(_NoColor,"Reading has been done succesfully.")
-    pass
+    sys.exit(1)
 elif _type=="s" :
-    pass
+    wanted_word=input("What is your word?\n")
+    _specificword(wanted_word)
+    sys.exit(1)
 else :
     print("WARNİNG! You should choose one of the three options. Try again !")
 
-def _random():
-    with open("sample.json", "r") as f:
-        dictionary= json.load(f)
-        number=randint(1,_length(dictionary)) - 1 # Array starts with 0.
-        print("WORD : ", end="")
-        print(list(dictionary["Words"])[number])
-        print("Def. : ", end="")
-        print(list(dictionary.values["Words"])[number])
 """
 def _add():
     with open("sample.json", "a") as f:
         dictionary= json.load(f)
-def _specificword(wanted_word):
-    with open("sample.json", "r") as f:
-        dictionary= json.load(f)
 """
+
+
+
+
+
+
 
 
 
