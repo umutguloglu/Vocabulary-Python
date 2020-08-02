@@ -1,13 +1,15 @@
 {
-    "Number of Words" : 2,
-    "Words" : {
-        "Ali" : {
-            "Definition" : "sathiyajith",
-            "Examples" : "56",
-            "Number of Repeats" : 0 },
-        "veli" : {
-            "Definition" : "sathiyajith",
-            "Examples" : "56",
-            "Number of Repeats" : 0 }
+    "Number of Words": 2,
+    "Words": {
+        "Ali": {
+            "Definition": "sathiyajith",
+            "Examples": "56",
+            "Number of Repeats": 2
+        },
+        "veli": {
+            "Definition": "sathiyajith",
+            "Examples": "56",
+            "Number of Repeats": 1
+        }
     }
 }
