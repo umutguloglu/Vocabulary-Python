@@ -1,5 +1,5 @@
 {
-    "Number of Words": 2,
+    "Number of Words": 11,
     "Words": {
         "Resolve": {
             "Definition": "A strong determination to do something",
@@ -9,6 +9,51 @@
         "Aspires to": {
             "Definition": "To have a strong desire to do or become something",
             "Example": "The actor has not been in a movie for then years, but he still aspires to stardom.",
+            "Number of Repeats": 0
+        },
+        "Keep": {
+            "Definition": "To have or retain possession of",
+            "Example": "My father would keep the best for himself.",
+            "Number of Repeats": 0
+        },
+        "Excerpt": {
+            "Definition": "A short extract from a film, broadcast, or piece of music or writing",
+            "Example": "Number the main ideas in the order they are developed in the excerpt given.",
+            "Number of Repeats": 0
+        },
+        "Versatile": {
+            "Definition": "Able to adapt or be adapted to many different functions or activities",
+            "Example": "He was versatile enough to play either position.",
+            "Number of Repeats": 0
+        },
+        "Attic": {
+            "Definition": "A space or room just below the roof of a building",
+            "Example": "There are five attic bedrooms.",
+            "Number of Repeats": 0
+        },
+        "Parade": {
+            "Definition": "A public procession, especially one celebrating a special day or event and including marching bands and floats",
+            "Example": "The crowd cheered as one and the parade began.",
+            "Number of Repeats": 0
+        },
+        "Chandelier": {
+            "Definition": "A decorative hanging light with branches for several light bulbs or candles",
+            "Example": "This chandelier will be perfect for our bedroom.",
+            "Number of Repeats": 0
+        },
+        "Pierce": {
+            "Definition": "(of a sharp pointed object) go into or through something",
+            "Example": "I had to pierce another hole in my belt.",
+            "Number of Repeats": 0
+        },
+        "Ambiguity": {
+            "Definition": "The quality of being open to more than one interpretation; inexactness",
+            "Example": "Ambiguities in such questions are potentially very dangerous.",
+            "Number of Repeats": 0
+        },
+        "Seamlessly": {
+            "Definition": "Smoothly and continuosly, with no apparent gaps or spaces between one part and the next",
+            "Example": "Each song is seamlessly integrated into the film.",
             "Number of Repeats": 0
         }
     }
