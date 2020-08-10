@@ -1,5 +1,5 @@
 {
-    "Number of Words": 11,
+    "Number of Words": 14,
     "Words": {
         "Resolve": {
             "Definition": "A strong determination to do something",
@@ -54,6 +54,21 @@
         "Seamlessly": {
             "Definition": "Smoothly and continuosly, with no apparent gaps or spaces between one part and the next",
             "Example": "Each song is seamlessly integrated into the film.",
+            "Number of Repeats": 0
+        },
+        "Residual": {
+            "Definition": "Remaining after the greater part or quantity has gone",
+            "Example": "Here, you can see the withdrawal of residual occupying forces in this picture.",
+            "Number of Repeats": 0
+        },
+        "Onset": {
+            "Definition": "The beginning of something, usually something unpleasant",
+            "Example": "The onset of hurricane season is probably not the best time to visit the beach.",
+            "Number of Repeats": 0
+        },
+        "Concurrent": {
+            "Definition": "Existing, happening, or done at the same time",
+            "Example": "There are three concurrent art fairs around the city.",
             "Number of Repeats": 0
         }
     }
