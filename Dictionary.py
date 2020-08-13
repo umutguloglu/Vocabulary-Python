@@ -203,6 +203,7 @@ _type=input("\n\tWelcome! What do you want?\n" +
 "3-) To look at a specific word, press 's' and Enter.\n"+
 "4-) To delete a specific word, press 'd' and Enter.\n"+
 "5-) To change something in a specific word, press 'c' and Enter.\n"+
+"6-) To learn how many words are in the vocabulary, press 'h' and Enter.\n"+
 
 "My choice is: "
 )
@@ -223,6 +224,13 @@ elif _type=="s" :
 elif _type=="d" :
     deleted_word=input("The word you want to delete is : ").capitalize()
     _delete(deleted_word)
+    sys.exit(1)
+
+elif _type=="h" :
+    with open("Vocabulary.json", "r") as f:
+        dictionary= json.load(f)
+        __length=_length(dictionary)
+    print("There are",__length,"words in the vocabulary.")
     sys.exit(1)
 
 elif _type=="c" :
