@@ -1,5 +1,5 @@
 {
-    "Number of Words": 14,
+    "Number of Words": 23,
     "Words": {
         "Resolve": {
             "Definition": "A strong determination to do something",
@@ -69,6 +69,51 @@
         "Concurrent": {
             "Definition": "Existing, happening, or done at the same time",
             "Example": "There are three concurrent art fairs around the city.",
+            "Number of Repeats": 0
+        },
+        "Burly": {
+            "Definition": "(of a person) large and strong; heavily built",
+            "Example": "Even a big, burly man cannot beat you.",
+            "Number of Repeats": 0
+        },
+        "Sissy": {
+            "Definition": "A person regarded as effeminate or cowardly",
+            "Example": "Jason is not sissy. ",
+            "Number of Repeats": 0
+        },
+        "Stingy": {
+            "Definition": "Unwilling to give or spend; ungenerous",
+            "Example": "I can be very generous or very stingy.",
+            "Number of Repeats": 0
+        },
+        "Mishap": {
+            "Definition": "An unlucky accident",
+            "Example": "The event passed without mishap.",
+            "Number of Repeats": 0
+        },
+        "Oath": {
+            "Definition": "A solemn promise, often invoking a divine witness, regarding one's future action or behaviour",
+            "Example": "They took an oath of allegiance to the king.",
+            "Number of Repeats": 0
+        },
+        "Agile": {
+            "Definition": "Able to move quickly and easily",
+            "Example": "He was as agile as a monkey.",
+            "Number of Repeats": 0
+        },
+        "Coherent": {
+            "Definition": "(of an argument, theory, or policy) logical and consistent",
+            "Example": "They failed to develop a coherent economic strategy.",
+            "Number of Repeats": 0
+        },
+        "Obsolete": {
+            "Definition": "No longer produced or use; out of date",
+            "Example": "The phrase was obsolete after 1625.",
+            "Number of Repeats": 0
+        },
+        "Predicament": {
+            "Definition": "A difficult, unpleasant, or embarrassing situation",
+            "Example": "Galatasaray's financial predicament is going to long a while.",
             "Number of Repeats": 0
         }
     }
